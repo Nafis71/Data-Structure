@@ -257,7 +257,7 @@ int main()
                 s.print();
                 break;
             default:
-                cout<<"Wrong input"<<endl;
+                exit(0);
        }
     } while (true);
     
